@@ -12,6 +12,8 @@
 /build
 
 # misc
+__snapshots__
+/.draft
 .DS_Store
 .env.local
 .env.development.local
