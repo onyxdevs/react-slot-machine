@@ -1,0 +1,61 @@
+@import '../../lib/styles/abstracts/variables.scss';
+@import '../../lib/styles/abstracts/mixins.scss';
+
+.button {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    padding: 0.875rem 2rem;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    border-radius: 0.75rem;
+    border: none;
+    width: 16rem;
+    max-width: 100%;
+    transition: background-color 0.1s ease-in-out, color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+
+    &:not([disabled]):hover {
+        cursor: pointer;
+    }
+
+    &[disabled] {
+        opacity: 0.5;
+
+        &:hover {
+            cursor: not-allowed;
+        }
+    }
+
+    /* Colors
+    *************************************/
+    &--primary {
+        background-color: $primary-color;
+        color: #fff;
+
+        &:not([disabled]):active,
+        &:not([disabled]):hover {
+            color: #fff;
+            background-color: darken($primary-color, 10%);
+        }
+        &:not([disabled]):active {
+            box-shadow: 0 0 0 3px rgba($primary-color, 0.3);
+        }
+    }
+    &--none {
+        background-color: transparent;
+        color: $primary-color;
+        padding-right: 14px;
+        padding-left: 14px;
+
+        &:not([disabled]):active,
+        &:not([disabled]):hover {
+            background-color: lighten(rgba($primary-color, 0.2), 13%);
+        }
+        &:not([disabled]):active {
+            background-color: lighten(rgba($primary-color, 0.1), 13%);
+        }
+    }
+}

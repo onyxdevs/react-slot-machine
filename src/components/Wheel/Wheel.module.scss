@@ -1,0 +1,30 @@
+@import '../../lib/styles/abstracts/variables.scss';
+@import '../../lib/styles/abstracts/mixins.scss';
+
+.wheel {
+    position: relative;
+    flex-shrink: 0;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1rem;
+    background-color: #e5cabe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+
+    @include md {
+        margin: 3rem;
+    }
+
+    img {
+        @include absolute(top 1.5rem right 1.5rem bottom 1.5rem left 1.5rem);
+        opacity: 0;
+        transition: opacity 0.1s ease-in-out;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+}
