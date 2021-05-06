@@ -69,6 +69,11 @@ const useSlotMachine = () => {
         setScore('');
         setStatus('spinning');
 
+        // clear auto start timer
+        if (timerRef.current) {
+            clearTimeout(timerRef.current);
+        }
+
         intervalRef.current = setInterval(() => {
             setIndexes(getRandoms());
         }, 50);
