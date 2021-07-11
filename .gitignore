@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# development
+_backups
+_draft
+NOTES.md
+.vscode
+
 # dependencies
 /node_modules
 /.pnp
@@ -13,7 +19,7 @@
 
 # misc
 __snapshots__
-/.draft
+social-preview.jpg
 .DS_Store
 .env.local
 .env.development.local

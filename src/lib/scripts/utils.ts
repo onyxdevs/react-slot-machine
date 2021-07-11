@@ -1,5 +1,5 @@
 class Logger {
-    logs: object[];
+    private logs: object[];
 
     constructor() {
         this.logs = [];
