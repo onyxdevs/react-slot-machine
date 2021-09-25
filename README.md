@@ -55,7 +55,7 @@ The project includes extra packages and improved file structure.
     - index.tsx
 ```
 
-## How to launch the project
+## How to launch the project 🏁
 
 Install [Node.js](https://nodejs.org/) and then open the Terminal/CMD and navigate to the project's folder.
 Run the following command:
@@ -93,7 +93,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Testing
 
 ```bash
-npm run build
+npm run test
 ```
 
 Launches the test runner in the interactive watch mode.\
