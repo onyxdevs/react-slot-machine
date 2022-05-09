@@ -3,6 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).<br />
 The project includes extra packages and improved file structure.
 
+## Check the online demo 🪄
+
+[https://onyxdev.net/files/battlefield/react/react-slot-machine/](https://onyxdev.net/files/battlefield/react/react-slot-machine/)
+
 ## Dependencies that was added to CRA 👷🏼‍♀️
 
 -   @testing-library/react-hooks
