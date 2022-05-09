@@ -7,7 +7,7 @@ The project includes extra packages and improved file structure.
 
 [https://onyxdev.net/files/battlefield/react/react-slot-machine/](https://onyxdev.net/files/battlefield/react/react-slot-machine/)
 
-## Dependencies that was added to CRA 👷🏼‍♀️
+## Dependencies that were added to CRA 👷🏼‍♀️
 
 -   @testing-library/react-hooks
 -   @types/enzyme
@@ -15,11 +15,11 @@ The project includes extra packages and improved file structure.
 -   enzyme
 -   node-sass
 
-## Behaviour 🎰
+## Behavior 🎰
 
-1. The machine has 3 wheels. Each wheel has 4 symbols (strawberry, banana, orange and a monkey), the machine can show only one symbol per wheel.
+1. The machine has 3 wheels. Each wheel has 4 symbols (strawberry, banana, orange, and a monkey), and the machine can show only one symbol per wheel.
 2. The machine starts with the symbols in random positions.
-3. The machine has a start button. When the it's clicked, the wheels start spinning (a symbol every, 50ms).
+3. The machine has a start button. When it's clicked, the wheels start spinning (a symbol every, 50ms).
 4. If the start button wasn't clicked, then the machine starts spinning automatically after 5 seconds.
 5. If the stop button wasn't clicked after starting, the machine stops automatically after 10 seconds.
 6. When stopped, if we have two identical inconsecutive symbols, the prize is $10, or two consecutive symbols, then the prize is $20. If we have a full match, the prize is $100.
@@ -68,7 +68,7 @@ Run the following command:
 npm insatll
 ```
 
-### Development evnironment
+### Development environment
 
 ```bash
 npm start
@@ -109,7 +109,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
